@@ -1,0 +1,1 @@
+mero;01:01:01;lucas;00:00:10;jerry;00:00:50;juca;00:00:59;pedin;00:10:03;luck;10:00:03;sade;24:00:02;luizEnrique;00:00:03;lup;00:00:02;pedra;00:00:06;
