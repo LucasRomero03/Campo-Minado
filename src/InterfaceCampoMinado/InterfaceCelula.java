@@ -27,7 +27,7 @@ public class InterfaceCelula extends JButton {
 			buttonAction(false);
 		});
 		this.addMouseListener(new java.awt.event.MouseAdapter(){
-			public void mousePressed(java.awt.event.MouseEvent e) { // Usar botão direito do mouse (peguei no Stackoverflow).
+			public void mousePressed(java.awt.event.MouseEvent e) { // Usar botï¿½o direito do mouse (peguei no Stackoverflow).
 				if(SwingUtilities.isRightMouseButton(e)) {
 					buttonAction(true);
 				}
@@ -37,7 +37,7 @@ public class InterfaceCelula extends JButton {
 	public void pressionar() {
 		
 		System.out.println("linha: " + linha + " coluna: " + coluna);
-		int retorno = t.clicarButton(linha, coluna);// retorno é o numero de vizinhos com minas
+		int retorno = t.clicarButton(linha, coluna);// retorno ï¿½ o numero de vizinhos com minas
 		
 		if (this.e.isMinado()) {
 			this.it.revelarMinas();
@@ -62,7 +62,7 @@ public class InterfaceCelula extends JButton {
 		
 		
 	}
-	public void buttonAction(boolean botaoDireito) { // Ação do Button (botão gráfico).
+	public void buttonAction(boolean botaoDireito) { // Aï¿½ï¿½o do Button (botï¿½o grï¿½fico).
 		
 		
 		if (!botaoDireito) {
@@ -101,7 +101,7 @@ public class InterfaceCelula extends JButton {
 		boolean marcado = this.e.marcarBandeira();
 		
 		if(this.e.isMarcado()) {
-			Icon icon1 = new ImageIcon("C:\\Users\\romer\\eclipse-workspace\\CampoMinadoLPOO\\src\\imagens\\bandeira_.png");
+			Icon icon1 = new ImageIcon("src/imagens/bandeira_.png");
 
 			//this.setText("M");
 			

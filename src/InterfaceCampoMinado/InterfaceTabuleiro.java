@@ -74,7 +74,7 @@ public class InterfaceTabuleiro extends JFrame {
 		this.botaoReset.setLocation((ConstantesTabuleiro.tamanhoCelula*ConstantesTabuleiro.nColunas)/2 - (ConstantesTabuleiro.tamanhoCelula)/2, 70);
 	
 		//botao facil
-		Icon iconf = new ImageIcon("C:\\Users\\romer\\eclipse-workspace\\CampoMinadoLPOO\\src\\imagens\\f.png");
+		Icon iconf = new ImageIcon("src/imagens/f.png");
 		this.botaoFacil = new JButton(iconf);
 		this.panel.add(this.botaoFacil);
 		this.botaoFacil.addActionListener((java.awt.event.ActionEvent evento) -> {
@@ -91,7 +91,7 @@ public class InterfaceTabuleiro extends JFrame {
 		this.botaoFacil.setLocation(0 , 0);
 	
 		//botao Medio
-		Icon iconm = new ImageIcon("C:\\Users\\romer\\eclipse-workspace\\CampoMinadoLPOO\\src\\imagens\\m.png");
+		Icon iconm = new ImageIcon("src/imagens/m.png");
 		this.botaoMedio = new JButton(iconm);
 		this.panel.add(this.botaoMedio);
 		this.botaoMedio.addActionListener((java.awt.event.ActionEvent evento) -> {
@@ -108,7 +108,7 @@ public class InterfaceTabuleiro extends JFrame {
 		this.botaoMedio.setLocation((ConstantesTabuleiro.tamanhoCelula * ConstantesTabuleiro.nLinhas)/4+ 10 , 0);
 		
 		//botao Dificil
-		Icon icond = new ImageIcon("C:\\Users\\romer\\eclipse-workspace\\CampoMinadoLPOO\\src\\imagens\\d.png");
+		Icon icond = new ImageIcon("src/imagens/d.png");
 		
 		this.botaoDificil = new JButton(icond);
 		this.panel.add(this.botaoDificil);
@@ -128,7 +128,7 @@ public class InterfaceTabuleiro extends JFrame {
 		this.botaoDificil.setLocation( (ConstantesTabuleiro.tamanhoCelula * ConstantesTabuleiro.nLinhas)/4*2 +20, 0);
 		
 		//botao Ranking
-		Icon iconcmm = new ImageIcon("C:\\Users\\romer\\eclipse-workspace\\CampoMinadoLPOO\\src\\imagens\\letra-r.png");
+		Icon iconcmm = new ImageIcon("src/imagens/letra-r.png");
 		this.botaoCmm = new JButton(iconcmm);
 		this.panel.add(this.botaoCmm);
 		this.botaoCmm.addActionListener((java.awt.event.ActionEvent evento) -> {
